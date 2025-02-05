@@ -1,0 +1,110 @@
+
+
+/* min width */
+
+@media (max-width:1200px) {
+
+
+    /* first section  */
+
+    .logo h2 a{
+        font-size:25px;
+    }
+
+    .ddd .list01{
+        padding: 0 !important;
+    }
+
+    .ddd .button01 {
+        margin: 0 !important;
+    }
+
+    /* eight section  */
+    .card8{
+        height: auto !important;
+    }
+
+    /* title 11  */
+
+    .member .icon {
+        bottom: 30%;
+        left: 12%;
+    }
+
+    .image11:hover .icon {
+        left: 10%;
+    }
+}
+
+@media (max-width:992px) {
+ 
+    /*  first section  */
+
+    .ddd .list01{
+        display: none !important;
+    }
+
+    /* second section */
+
+    .hd992{
+        display: none!important;
+    }
+
+    /* fourth section */
+
+    .write-box{
+        margin: 40px 0px;
+    }
+
+    /* fifth section  */
+
+    .box .icon{
+        font-size: 50px;
+    }
+    .box h5{
+        display:  none !important;
+    }
+
+    /* ternth section */
+    .title10 h2::before {
+        left: 36%;
+    }
+
+}
+
+/* 768 px */
+
+    @media (max-width:768px){
+        
+        /* third section */
+        .tc{
+            display: flex !important;
+            flex-direction: column;
+            align-items: center;
+        }
+        .tc p{
+            text-align: center;
+        }
+
+        /* fourth section */
+        .write-box .round {
+            left: 46%;
+        }
+
+        /* twelve section */
+        .form{
+            margin: 25px 0px;
+        }
+
+        /* fourteen section */
+        .lst{
+            flex-direction: column;
+        }
+    }
+
+    @media (max-width:576px) {
+        /* second section */
+        .hd576{
+            display: none !important;
+        }
+    }
